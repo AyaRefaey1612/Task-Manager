@@ -1,9 +1,9 @@
 const express=require('express');
 const app = express();
-const tasks=require('./routes/tasks');
-const connectDB=require('./db/connect');
-const notFound=require('./middleware/not-found');
-const errorHandler=require('./middleware/errorhandler');
+const tasks=require('../routes/tasks');
+const connectDB=require('../db/connect');
+const notFound=require('../middleware/not-found');
+const errorHandler=require('../middleware/errorhandler');
 require('dotenv').config()
 
 app.use(express.static('./public'));

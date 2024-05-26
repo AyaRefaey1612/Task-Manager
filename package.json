@@ -1,7 +1,7 @@
 {
   "name": "starter",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "api/app.js",
   "dependencies": {
     "abbrev": "^1.1.1",
     "accepts": "^1.3.8",
@@ -124,7 +124,7 @@
     "vary": "^1.1.2"
   },
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon  api/app.js"
   },
   "author": "",
   "license": "ISC",
